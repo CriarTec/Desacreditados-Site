@@ -1,0 +1,745 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    overflow-x:hidden;
+                   
+}
+
+@font-face {  
+    font-family: 'people'; /*a name to be used later*/
+    src: url(fontes/People.ttf); /*URL to font*/
+}
+
+@font-face {  
+    font-family: 'gross'; /*a name to be used later*/
+    src: url(fontes/DJGROSS.ttf); /*URL to font*/
+}
+
+@font-face {  
+    font-family: 'teko'; /*a name to be used later*/
+    src: url(fontes/Teko-VariableFont_wght.ttf); /*URL to font*/
+}
+
+
+#inicio{   
+    background-image: url("fundo site.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;    
+    
+}
+
+#metade img{
+    width: 100vw;
+}
+
+#logo img{
+    width: 2vw;
+    height: 2vw;
+}
+
+#logo{
+    padding: 0% !important;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    width: 100vw;
+    display: flex;
+    border: 1px solid rgba(136, 136, 136, 0.323);
+      
+ }
+ 
+.Menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    justify-content: space-evenly;
+    width: 100%;
+   
+ }
+ 
+ .Menu button {
+    scale: 150%;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    width: 120px;   
+    cursor: pointer;
+    color: white;
+    padding: 5%;
+    height: 100%;
+
+  }
+  
+  .Menu p{
+    font-family: "teko";
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    border: 2px solid #00000000;
+    margin: 0;
+    transform: skew(0deg);
+    justify-content: center;
+    text-shadow: none;
+    
+  }
+  
+  .Menu button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #ffffff38;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .Menu button:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .Menu button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    letter-spacing: 1vw;
+    font-family: "gross";
+    width: 80%;
+}
+
+
+
+#inicio p{
+    color: #ffffff;
+    
+}
+
+#inicio img{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: fixed;
+   
+}
+
+#segundaParte{
+    background-color: rgb(0, 0, 0); 
+    background-image: url(rosto\ primeira.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    margin-top: 5%;    
+   
+}
+
+#informacoes{
+    color:#ffffff;
+    display: flex;
+    margin-top: 8%;
+    font-size: 4vh;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#informacoes h2{
+    font-family: "gross";
+}
+
+#informacoes img{
+    width: 30vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    margin-right: 4%;
+
+}
+
+#textoEImg{
+    display: flex;
+}
+
+#textoInformacoes{
+    width: 40vw;
+    font-family: "teko";
+    padding-left: 5%;
+   
+}
+
+#miniRosto{
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+
+
+
+#clipe{
+    background-color: rgb(0, 0, 0);
+    background-image: url(fundosegunda.jpg);
+    background-repeat: no-repeat;
+    width: 90vw;
+    margin-top: 4vw;
+    display: flex;
+    justify-content:space-between;  
+    
+}
+
+
+#clipe iframe{
+    width: 70vw;
+    height: 70vh;
+    padding-right: 5%;
+    margin-top:10%;
+          
+}
+
+#clipe img{
+    margin: 0%;
+
+}
+
+#boxMetade{
+    width: 10%;
+}
+
+#boxMetade img{
+    width:35vw;
+    height: 90vh;
+        
+}
+
+#diario{
+height: 100vh;
+font-size: 5vh;
+
+}
+
+#diario h3{
+    color: #ffffff;
+
+
+}
+
+#imagemSeparacao{
+    margin-top: 10%;
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+#separacaoTres{
+    width:100vw;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#separacaoTres img{
+    width: 32vw;
+    height: 30vh;
+    
+}
+
+#separacaoDois{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+#separacaoDois img{
+    width: 32vw;
+}
+
+
+#separacaoUm{
+    width: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+
+#separacaoUm img{
+    width: 97%;
+    height: 100%;
+}
+
+#ParteDeBaixoGrid{
+    display: flex;
+    height: 70%;
+
+}
+
+#separacaoUm img:hover{
+    width: 100%;
+    height: 100%;
+
+}
+
+#separacaoDois img:hover{
+    width: 35vw; 
+
+}
+
+#separacaoTres img:hover{
+    width: 35vw;
+    height: 31vh;
+
+}
+
+#colunaArtista{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+     
+    
+}
+
+#sobreArtista{
+    color: #000000;
+    font-size: 4.2vw;    
+    PADDING-top: 0.5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobreArtista p{
+    font-family: "gross";
+    margin-left: 15%;
+
+}
+
+#artista{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(Prancheta\ 1fundobranco.png);
+    background-repeat:repeat;
+    background-position: left;
+    background-size:cover;
+    margin: 0%;
+    margin-top: 5%;
+    display: flex;
+  
+}
+
+
+#colunaDois{ 
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+     
+}
+
+
+
+#colunaDois p{
+    width: 35%;
+    text-align:left;
+    height: 100%;
+    font-family: "teko";
+    font-size: 2vw;
+}
+
+#colunaDois img{
+    width: 50vh;
+   padding-right: 3%;
+}
+
+
+#diario{
+    color: #ffffff;
+   
+
+}
+
+#diario h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "gross";
+}
+
+.textoDiario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    padding-left: 5%;
+    font-size: 55%;
+    font-family: "teko";
+}
+
+.Cima{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paragrafo{
+    width: 65%;
+    height: 40%;
+}
+
+#equipe{
+    width: 100%;
+    height: 30vh;
+    margin-top: 10%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "gross";
+
+}
+
+#equipe{
+    color: #ffffff;
+    font-size: 4vw;
+
+}
+
+#conheca{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+css agora
+
+.container{
+    width: 92%;
+    margin-left: 5%;
+    margin-right: auto;
+    
+}
+
+
+
+.box {
+    width: fit-content;
+    min-width: 20%;
+    max-width: 60%;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px ;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    border: solid  #ffffff38 1px;
+    padding-left: 5%;
+        
+}
+
+.box img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.box h6{
+
+    letter-spacing: 2px;
+    font-family: 'Squada One', sans-serif;
+    font-size: 2.40rem;
+    margin: 0%;
+    color: #ffffff;
+    width: 80%;
+}
+
+.box label{
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+}
+
+#ch{
+    display: none;
+    
+
+}
+
+#ch:checked ~ .content {
+    display: block;
+
+}
+
+#ch:checked ~label {
+        display: none;
+}
+
+#ch1{
+    display: none;
+   }
+
+#ch1:checked ~ .content {
+    display: block;
+    
+    
+}
+
+#ch1:checked ~label {
+        display: none;
+}
+
+#ch2{
+    display: none;
+   }
+
+#ch2:checked ~ .content {
+    display: block;
+    
+}
+
+#ch2:checked ~label {
+        display: none;
+}
+
+#ch3{
+    display: none;
+   }
+
+#ch3:checked ~ .content {
+    display: block;
+   
+}
+
+#ch3:checked ~label {
+        display: none;
+}
+
+#ch4{
+    display: none;
+   }
+
+#ch4:checked ~ .content {
+    display: block;
+    
+}
+
+#ch4:checked ~label {
+        display: none;
+}
+
+#ch5{
+    display: none;
+   }
+
+#ch5:checked ~ .content {
+    display: block;
+    
+}
+
+#ch5:checked ~label {
+        display: none;
+}
+
+
+#ch7{
+    display: none;
+}
+
+#ch7:checked ~ .content {
+    display: block;
+}
+
+#ch7:checked ~label {
+        display: none;
+}
+
+#ch8{
+    display: none;
+    
+}
+
+#ch8:checked ~ .content {
+    display: block;
+
+    
+}
+
+#ch8:checked ~label {
+        display: none;
+}
+
+
+.content{
+        display: none;
+       
+        
+}
+
+.content img{
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    padding-left: 1%;
+
+}
+
+label{  
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;  
+    border-radius: 5%;
+    margin: 1.5%;
+    width: auto;
+    font-family: "teko";
+    
+}
+
+.box p{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.colunaEquipe{
+    display: flex;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 90%;
+    height:90%;
+}
+
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloco{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   
+}
+
+.cadaFoto{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+}
+
+#linhas{
+    position: absolute;
+    width: 20%;
+    right: 5%;
+    margin-top: 0%;
+}
+
+.imagensSite{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(foto\ 1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    margin-top: 35px;    
+
+}
+
+
+.container label{
+    width: fit-content;
+    font-size: 2vw;
+    scale: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;   
+    cursor: pointer;
+    color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+.container label:hover{
+    background: #ffffff38;
+}
+
+.container label::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #ffffff38;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .container label:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+
+  .esconder{
+   font-size: 1vh;
+
+  }

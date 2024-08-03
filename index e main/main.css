@@ -1,0 +1,123 @@
+:root{
+    --branco: #ccc;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+
+                    margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;
+                    transition: background-image 0.5s ease-in-out;
+}
+
+#inicio{   
+    background-image: url("fundo site.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    padding: 0%;
+
+}
+
+#inicio img{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: fixed;
+   
+}
+
+#segundaParte{
+    background-color: rgb(0, 0, 0); 
+    background-image: url(rosto\ primeira.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    margin-top: 30px;    
+   
+}
+
+#informacoes{
+    color: var(--branco);
+    display: flex;
+    margin-top: 8%;
+    font-size: 4vh;
+    padding-left: 6%;
+    padding-right: 5%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+
+#informacoes img{
+width: 30vw;
+height: 80vh;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: 1em;
+
+}
+
+#textoEImg{
+    display: flex;
+}
+
+#textoInformacoes{
+width: 40vw;
+   
+}
+
+#miniRosto{
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+
+#clipe{
+    background-color: rgb(0, 0, 0);
+    background-image: url(fundosegunda.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-top: 5%;
+    display: flex;
+    justify-content:end;
+}
+
+
+#clipe iframe{
+    width: 60vw;
+    height: 60vh;
+    padding-right: 5%;
+}
+
+#fundoPreto{
+    width: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
